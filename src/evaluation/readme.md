@@ -1,0 +1,1 @@
+The script for evaluating the generated answers with the ground truth

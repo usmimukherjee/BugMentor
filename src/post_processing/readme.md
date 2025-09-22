@@ -1,0 +1,1 @@
+For adding gold bug report to the ranked candidate answers for generation
