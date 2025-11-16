@@ -249,9 +249,27 @@ For any further questions or issues, please feel free to open an issue on the Gi
 
 
 ## Authors
+- **Usmi Mukherjee** – Dalhousie University, [usmi.mukherjee@dal.ca](mailto:usmi.mukherjee@dal.ca)  
+- **Mohammad Masudur Rahman** – Dalhousie University, [masud.rahman@dal.ca](mailto:masud.rahman@dal.ca)
 
-- **[Usmi Mukherjee]** - [Dalhousie University], [usmi.mukherjee@dal.ca](mailto:usmi.mukherjee@dal.ca)
-- **[Mohammad Masudur Rahman]** - [Dalhousie University], [masud.rahman@dal.ca](mailto:masud.rahman@dal.ca)
+## Citation
+
+```
+@article{MUKHERJEE2026112636,
+title = {BugMentor: Generating answers to follow-up questions from software bug reports using structured information retrieval and neural text generation},
+journal = {Journal of Systems and Software},
+volume = {231},
+pages = {112636},
+year = {2026},
+issn = {0164-1212},
+doi = {https://doi.org/10.1016/j.jss.2025.112636},
+url = {https://www.sciencedirect.com/science/article/pii/S016412122500305X},
+author = {Usmi Mukherjee and Mohammad Masudur Rahman},
+keywords = {Software engineering, Software bugs, Follow-up questions, Neural text generation, Information retrieval},
+abstract = {Software bug reports often lack crucial information (e.g., steps to reproduce), which makes bug resolution challenging. Developers thus ask follow-up questions to capture additional information. However, according to existing evidence, bug reporters often face difficulties answering them, which leads to the premature closing of bug reports without any resolution. Recent studies suggest follow-up questions to support the developers, but answering the follow-up questions still remains a major challenge. In this paper, we propose BugMentor, a novel approach that combines structured information retrieval and neural text generation (e.g., Mistral) to generate appropriate answers to the follow-up questions. Our technique identifies the past relevant bug reports to a given bug report, captures contextual information, and then leverages it to generate the answers. We evaluate our generated answers against the ground truth answers using four appropriate metrics, including BLEU Score and Semantic Similarity. We achieve a BLEU Score of up to 72 and Semantic Similarity of up to 92 indicating that our technique can generate understandable and good answers to the follow-up questions according to Google’s AutoML Translation documentation. Our technique also outperforms four existing baselines with a statistically significant margin. We also conduct a developer study involving 23 participants where the answers from our technique were found to be more accurate, more precise, more concise and more useful.}
+}
+```
+
 
 ## License
 
